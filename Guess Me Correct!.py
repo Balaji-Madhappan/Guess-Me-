@@ -45,11 +45,12 @@ if guess == number:
       guessesTaken = str(guessesTaken)
 
       print('Good job, ' + myName + '! You guessed my number in ' + guessesTaken + ' guesses!')
-
+      playsound("reveille-sound-effect.mp3")
 
 
 if guess != number:
 
       number = str(number)
       print('Nope. The number I was thinking of was ' + number)
-      playsound("")
+      playsound("wine-glass-breaking-sound-effect.mp3")
+      
