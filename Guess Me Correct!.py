@@ -15,13 +15,8 @@ while guessesTaken < 5:
      guess = input()
 
      guess = int(guess)
-
-
-
      guessesTaken = guessesTaken + 1
-
-
-
+     
      if guess < number:
 
          print('Your guess is too low.') # There are eight spaces in front of print.
@@ -32,13 +27,9 @@ while guessesTaken < 5:
 
          print('Your guess is too high.')
 
-
-
      if guess == number:
 
         break
-
-
 
 if guess == number:
 
@@ -46,7 +37,6 @@ if guess == number:
 
       print('Good job, ' + myName + '! You guessed my number in ' + guessesTaken + ' guesses!')
       playsound("reveille-sound-effect.mp3")
-
 
 if guess != number:
 
