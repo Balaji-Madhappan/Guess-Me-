@@ -1,7 +1,7 @@
 # Project Title : Guess Me! 
 ### Batch NO : 08
 ### Mentor Name : Ms.Aruna TN
-### Github Link : github.com/Sai07joker/Guess-Me-/blob/master/Guess%20Me%20Correct!.py
+### Github Link :github.com/Sai07joker/Guess-Me-
 ### Team Details :
 | S.no  | Name  | Roll Number  | Email Id  |
 |-------|-------|--------------|-----------|
