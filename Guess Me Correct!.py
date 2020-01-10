@@ -1,4 +1,5 @@
 #This is a guess the number game.
+#This is a guess the number game.
 import random
 from playsound import playsound
 from PIL import Image
@@ -38,6 +39,8 @@ if guess == number:
 
       print('Good job, ' + myName + '! You guessed my number in ' + guessesTaken + ' guesses!')
       playsound("reveille-sound-effect.mp3")
+      myImage = Image.open("smiley_ball.jpg");
+      myImage.show();
 
 if guess != number:
 
